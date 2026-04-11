@@ -17,7 +17,7 @@ const CTASection = () => {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button variant="kakao" size="lg" className="h-14 px-8 text-lg rounded-xl" asChild>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="http://pf.kakao.com/_wixdxlX/chat" target="_blank" rel="noopener noreferrer">
               <MessageCircle className="w-5 h-5 mr-2" />
               카카오톡 문의
             </a>
