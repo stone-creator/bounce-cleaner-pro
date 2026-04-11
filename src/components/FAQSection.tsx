@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "월 최대 발송 한도는 얼마인가요?",
-    a: "발송량과 서버 한도에 따라 다릅니다. 발송량이 많을수록 기간이 길어집니다.",
+    a: "도메인 기준 월 한도는 아래와 같습니다.\n- 네이버 : 약 100만건\n- 구글 : 약 10만건\n- 서버 최대 성능 : 약 200만건",
   },
 ];
 
@@ -44,7 +44,7 @@ const FAQSection = () => {
               <AccordionTrigger className="text-left font-semibold text-foreground hover:no-underline py-5">
                 {faq.q}
               </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground pb-5 leading-relaxed">
+              <AccordionContent className="text-muted-foreground pb-5 leading-relaxed whitespace-pre-line">
                 {faq.a}
               </AccordionContent>
             </AccordionItem>
