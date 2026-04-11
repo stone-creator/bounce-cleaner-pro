@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, AlertTriangle } from "lucide-react";
+import { MessageCircle, AlertTriangle } from "lucide-react";
 
 const HeroSection = () => {
   return (
