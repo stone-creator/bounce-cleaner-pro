@@ -24,7 +24,7 @@ const HeroSection = () => {
           바운스 정리 없이는 어떤 대량 메일 발송 서비스도 소용없습니다.
         </p>
 
-        <Button variant="hero" size="lg" className="h-14 px-10 text-lg rounded-xl" asChild>
+        <Button variant="kakao" size="lg" className="h-14 px-10 text-lg rounded-xl" asChild>
           <a href="#" target="_blank" rel="noopener noreferrer">
             <MessageCircle className="w-5 h-5 mr-2" />
             카카오톡 문의
