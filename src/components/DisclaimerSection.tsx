@@ -10,7 +10,7 @@ const DisclaimerSection = () => {
             <h3 className="font-bold text-foreground">주의사항</h3>
           </div>
           <ul className="space-y-3 text-sm text-muted-foreground leading-relaxed">
-            <li>※ 발송 결과는 수신자 메일 서버 정책에 따라 달라질 수 있습니다.</li>
+            <li>※ 발송 속도는 수신자 메일 서버 정책에 따라 달라질 수 있습니다.</li>
             <li>※ 바운스율과 스팸 신고율은 별개의 문제입니다. 콘텐츠로 인한 스팸 신고율 문제는 서비스 범위 외입니다.</li>
           </ul>
         </div>
