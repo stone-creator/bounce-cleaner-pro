@@ -25,9 +25,9 @@ const HeroSection = () => {
         </p>
 
         <Button variant="hero" size="lg" className="h-14 px-10 text-lg rounded-xl" asChild>
-          <a href="#contact">
-            <Mail className="w-5 h-5 mr-2" />
-            지금 문의하기
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <MessageCircle className="w-5 h-5 mr-2" />
+            카카오톡 문의
           </a>
         </Button>
       </div>
