@@ -7,7 +7,7 @@ const HeroSection = () => {
       {/* Logo */}
       <div className="relative z-20 px-6 py-5">
         <a href="/" className="inline-block">
-          <img src="/logo.png" alt="Maily.biz" className="h-10 md:h-12" />
+          <img src="/logo.png" alt="Maily.biz" className="h-20 md:h-24" />
         </a>
       </div>
 
