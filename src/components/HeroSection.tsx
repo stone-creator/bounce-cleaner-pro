@@ -3,7 +3,14 @@ import { MessageCircle, AlertTriangle } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex flex-col overflow-hidden">
+      {/* Logo */}
+      <div className="relative z-20 px-6 py-5">
+        <a href="/" className="inline-block">
+          <img src="/logo.png" alt="Maily.biz" className="h-8" />
+        </a>
+      </div>
+
       {/* Background effects */}
       <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-transparent to-transparent" />
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/5 blur-[120px]" />
