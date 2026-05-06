@@ -7,8 +7,8 @@ const ProblemSection = () => {
         <div className="rounded-2xl border border-primary/20 bg-primary/5 p-8 glow-box">
           <ShieldCheck className="w-10 h-10 text-primary mx-auto mb-4" />
           <p className="text-xl font-bold text-foreground mb-2">
-            다른 플랫폼도 바운스를 자동으로 걸러줍니다.<br />
-            하지만 바운스율이 5%를 넘으면 계정을 정지합니다.
+            바운스율이 5%를 넘으면<br />
+            대부분의 플랫폼이 계정을 정지합니다.
           </p>
           <p className="text-muted-foreground leading-relaxed">
             저희는 다릅니다.<br />
