@@ -1,4 +1,4 @@
-import { XCircle, Clock, AlertTriangle } from "lucide-react";
+import { XCircle, Clock } from "lucide-react";
 
 const BounceSection = () => {
   return (
@@ -41,17 +41,6 @@ const BounceSection = () => {
               <li>→ 일시적 도달 불가</li>
               <li>→ 반복되면 하드 바운스로 전환</li>
             </ul>
-          </div>
-        </div>
-
-        {/* Warning callout */}
-        <div className="rounded-2xl border border-accent/30 bg-accent/5 p-6 flex items-start gap-4 max-w-2xl mx-auto">
-          <AlertTriangle className="w-6 h-6 text-accent flex-shrink-0 mt-0.5" />
-          <div>
-            <p className="font-bold text-foreground text-lg mb-1">바운스율이 5%를 넘으면?</p>
-            <p className="text-muted-foreground">
-              대부분의 이메일 마케팅 플랫폼이 자동으로 계정을 정지합니다.
-            </p>
           </div>
         </div>
       </div>
