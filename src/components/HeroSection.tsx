@@ -28,7 +28,7 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-          바운스 정리 없이는 어떤 대량 메일 발송 서비스도 소용없습니다.
+          바운스율이 5%를 넘는 순간 대부분의 플랫폼이 계정을 정지합니다.
         </p>
 
         <Button variant="kakao" size="lg" className="h-14 px-10 text-lg rounded-xl" asChild>
