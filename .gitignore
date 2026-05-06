@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Claude local records (project-local instructions)
+CLAUDE.md
+docs/
