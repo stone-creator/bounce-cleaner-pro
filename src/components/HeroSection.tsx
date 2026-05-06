@@ -18,17 +18,17 @@ const HeroSection = () => {
       <div className="container relative z-10 text-center px-4 py-20 flex-1 flex flex-col items-center justify-center">
         <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-2 mb-8">
           <AlertTriangle className="w-4 h-4 text-accent" />
-          <span className="text-sm text-muted-foreground">바운스 정리 없이는 대량 메일이 불가능합니다</span>
+          <span className="text-sm text-muted-foreground">정리되지 않은 리스트로는 어디서도 발송할 수 없습니다</span>
         </div>
 
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-black leading-tight mb-6">
-          <span className="text-foreground">대량 메일 발송,</span>
+          <span className="text-foreground">당신의 리스트,</span>
           <br />
-          <span className="text-gradient">왜 안 될까요?</span>
+          <span className="text-gradient">얼마나 깨끗한가요?</span>
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-          바운스율이 5%를 넘는 순간 대부분의 플랫폼이 계정을 정지합니다.
+          오래된 리스트의 30~50%는 이미 도달 불가능한 죽은 주소입니다.
         </p>
 
         <Button variant="kakao" size="lg" className="h-14 px-10 text-lg rounded-xl" asChild>

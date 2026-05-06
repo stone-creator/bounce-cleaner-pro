@@ -18,13 +18,13 @@ const ServiceSection = () => {
               </div>
               <div>
                 <span className="text-xs font-semibold text-primary tracking-wider uppercase">1단계 — 필수</span>
-                <h3 className="text-xl font-bold text-foreground">바운스 정리</h3>
+                <h3 className="text-xl font-bold text-foreground">리스트 진단·정리</h3>
               </div>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              저희 발송 인프라로 오염된 리스트를 발송해
+              저희 발송 인프라로 발송해
               하드/소프트 바운스를 분류하고
-              유효한 주소만 추려드립니다.
+              유효한 주소만 남긴 깨끗한 리스트를 만들어드립니다.
             </p>
           </div>
 
@@ -37,15 +37,15 @@ const ServiceSection = () => {
               </div>
               <div>
                 <span className="text-xs font-semibold text-accent tracking-wider uppercase">2단계 — 선택</span>
-                <h3 className="text-xl font-bold text-foreground">지속 발송</h3>
+                <h3 className="text-xl font-bold text-foreground">정리된 리스트 활용</h3>
               </div>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              정화된 리스트로 계속 발송하실 수 있습니다.
-              저희 발송 인프라를 계속 사용하시거나,
+              정리가 끝난 리스트는 자산입니다.
+              저희 인프라로 계속 발송하시거나,
               Amazon SES, Mailgun, Mailjet, Postmark,
-              SendGrid, SparkPost 등 타 발송 인프라를
-              연결하여 사용하실 수 있습니다.
+              SendGrid, SparkPost 등 본인의 발송 인프라로
+              가져가서 사용하실 수 있습니다.
             </p>
           </div>
         </div>

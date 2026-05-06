@@ -30,7 +30,7 @@ const PricingSection = () => {
             <span className="inline-block text-xs font-bold text-accent bg-accent/10 rounded-full px-3 py-1 mb-4 tracking-wider uppercase">
               2단계 — 선택 A
             </span>
-            <h3 className="text-lg font-bold text-foreground mb-3">저희 플랫폼 + 저희 인프라 계속 사용</h3>
+            <h3 className="text-lg font-bold text-foreground mb-3">정리된 리스트로 저희 인프라 계속 사용</h3>
             <p className="text-3xl font-black text-foreground mb-2">29만원<span className="text-base font-semibold text-muted-foreground">/월</span></p>
             <ul className="text-sm text-muted-foreground mt-4 space-y-2 text-left">
               <li className="flex items-start gap-2"><Check className="w-4 h-4 text-success flex-shrink-0 mt-0.5" />발송 인프라 포함</li>
@@ -42,7 +42,7 @@ const PricingSection = () => {
             <span className="inline-block text-xs font-bold text-accent bg-accent/10 rounded-full px-3 py-1 mb-4 tracking-wider uppercase">
               2단계 — 선택 B
             </span>
-            <h3 className="text-lg font-bold text-foreground mb-3">저희 플랫폼 + 타 발송 인프라로 전환</h3>
+            <h3 className="text-lg font-bold text-foreground mb-3">정리된 리스트로 타 발송 인프라로 전환</h3>
             <p className="text-3xl font-black text-foreground mb-2">15만원<span className="text-base font-semibold text-muted-foreground">/월</span></p>
             <ul className="text-sm text-muted-foreground mt-4 space-y-2 text-left">
               <li className="flex items-start gap-2"><Check className="w-4 h-4 text-success flex-shrink-0 mt-0.5" />SES, Mailgun 등 연결</li>

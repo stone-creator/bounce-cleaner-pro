@@ -9,10 +9,10 @@ const CTASection = () => {
 
       <div className="container max-w-3xl mx-auto text-center relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          지금 바로 바운스를 정리하세요.
+          지금 바로 리스트를 정리하세요.
         </h2>
         <p className="text-lg text-muted-foreground mb-10">
-          리스트가 깨끗해야 어디서든 발송할 수 있습니다.
+          깨끗한 리스트는 자산입니다. 정리된 리스트가 모든 발송의 시작입니다.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

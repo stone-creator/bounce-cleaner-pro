@@ -10,6 +10,8 @@ const BounceSection = () => {
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-16 text-lg leading-relaxed">
           이메일을 보냈는데 상대방 메일함에 도달하지 못하고
           되돌아오는 것을 바운스라고 합니다.
+          바운스가 누적된 리스트는 발송할수록 평판이 떨어지고
+          결국 어떤 인프라에서도 받아주지 않게 됩니다.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mb-12">
@@ -24,7 +26,7 @@ const BounceSection = () => {
             <p className="text-foreground font-medium mb-2">존재하지 않는 이메일 주소</p>
             <ul className="space-y-1 text-muted-foreground text-sm">
               <li>→ 영구적으로 도달 불가</li>
-              <li>→ 방치하면 계정 정지</li>
+              <li>→ 리스트에서 즉시 제거 대상</li>
             </ul>
           </div>
 
