@@ -12,7 +12,7 @@ const HeroSection = () => {
       </div>
 
       {/* Background effects */}
-      <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-transparent to-secondary/30" />
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/5 blur-[120px]" />
 
       <div className="container relative z-10 text-center px-4 py-20 flex-1 flex flex-col items-center justify-center">
