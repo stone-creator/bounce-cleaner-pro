@@ -22,7 +22,7 @@ const faqs = [
 
 const FAQSection = () => {
   return (
-    <section className="py-24 px-4">
+    <section className="py-24 px-4 bg-secondary/30">
       <div className="container max-w-3xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">자주 묻는 질문</h2>
 

@@ -2,7 +2,7 @@ import { Settings, Hand } from "lucide-react";
 
 const WarmupSection = () => {
   return (
-    <section className="py-24 px-4">
+    <section className="py-24 px-4 bg-secondary/30">
       <div className="container max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           웜업(Warm-up)이란?

@@ -2,7 +2,7 @@ import { Info } from "lucide-react";
 
 const DisclaimerSection = () => {
   return (
-    <section className="py-16 px-4 bg-secondary/30">
+    <section className="py-16 px-4">
       <div className="container max-w-3xl mx-auto">
         <div className="rounded-2xl border border-border bg-card p-8">
           <div className="flex items-center gap-2 mb-4">

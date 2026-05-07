@@ -2,7 +2,7 @@ import { Check, ArrowDown } from "lucide-react";
 
 const PricingSection = () => {
   return (
-    <section className="py-24 px-4 bg-secondary/30">
+    <section className="py-24 px-4">
       <div className="container max-w-5xl mx-auto">
         <p className="text-sm text-muted-foreground text-center mb-4">
           * 플랫폼 = 발송 프로그램 / 인프라 = 이메일 서버
