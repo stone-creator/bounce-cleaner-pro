@@ -5,7 +5,7 @@ const WarmupSection = () => {
     <section className="py-24 px-4 bg-secondary/30">
       <div className="container max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          웜업(Warm-up)이란?
+          웜업(Warm-up)이란 무엇인가요?
         </h2>
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-6 text-lg leading-relaxed">
           웜업은 발송 도메인·서버가
