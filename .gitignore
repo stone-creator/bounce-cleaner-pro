@@ -23,5 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-# Claude local records (project-local instructions)
-CLAUDE.md
+# Claude local records — 민감 정보만
+CLAUDE.local.md
