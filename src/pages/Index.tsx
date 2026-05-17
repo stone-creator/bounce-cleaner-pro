@@ -1,3 +1,5 @@
+// canonical: ../../docs/service-offering.md (저장소 기준 docs/service-offering.md)
+// 가격·패키지·USP·FAQ 변경은 docs를 먼저 수정 후 본 페이지 및 components/*Section.tsx에 반영
 import HeroSection from "@/components/HeroSection";
 import BounceSection from "@/components/BounceSection";
 import ProblemSection from "@/components/ProblemSection";
